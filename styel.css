@@ -1,0 +1,400 @@
+/* Awal Halaman Login */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conten {
+    background-color: rgb(232, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 50px;
+    margin: 50px;
+}
+
+.kata {
+    text-align: center;
+    width: 100%;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    border-radius: 8px;
+    border-style: none;
+    border: 5px;
+    margin: 10px 15px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.nomor {
+    width: 100%;
+    height: auto;
+}
+
+.password {
+    width: 100%;
+    height: auto;
+}
+
+.masuk button {
+    background-color: #5181e7;
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    margin: 15px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+.form h4 {
+    text-align: center;
+    margin-top: 3px;
+}
+
+.baru button {
+    width: 90%;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 170px;
+    margin-left: 5px;
+    border-color: rgb(82, 82, 235);
+    color: rgb(69, 69, 230);
+    cursor: pointer;
+
+}
+
+.meta img {
+    width: 70px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+input:focus {
+    outline-color: rgb(69, 69, 230);
+}
+
+/* Akhir Halaman Login */
+
+/* Awal Halaman Index */
+.index {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigasi Mode data,Beli data,Beralih data */
+.nav-atas {
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-atas .mode-data {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.nav-atas .beli-data {
+    background-color: black;
+    padding: 3px;
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 25%;
+    height: auto;
+    text-align: center;
+
+}
+
+.nav-atas .Beralih-mode {
+    background-color: black;
+    padding: 2px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+/* Akhir */
+
+/* Navigasi icon facebook tambah cari dan pesan  */
+nav {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+nav .logo-atas .icon-atas img {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+
+nav .logo-atas .icon-atas i {
+    background-color: whitesmoke;
+    margin-left: 5%;
+    width: 40px;
+    height: 35px;
+    border-radius: 13px;
+}
+
+nav .logo-atas .gambar {
+    width: 55%;
+}
+
+nav .logo-atas .gambar img {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+nav .logo-atas .icon-atas {
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav .logo-atas {
+    display: flex;
+}
+
+/* Akhir */
+
+/* Awal logo bawah */
+nav .logo-bawah{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+nav .logo-bawah img{
+    width: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+/* Akhir logo bawah */
+
+/* Awal Status */
+.status{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.profil {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(224, 220, 220);
+    border-radius: 15px;
+    margin-left: 2%;
+}
+.isi input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.isi{
+    width: 75%;
+}
+/* Akhir Status */
+
+/* Awal Stories */
+.stories {
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+.S1{
+    background-color:whitesmoke;
+    width: 20%;
+    height: 150px;
+    margin: 1% 1%;
+}
+.S2{
+    background-color:whitesmoke;
+    width: 20%;
+    height: 150px;
+    margin: 1% 1%;
+}
+.S3{
+    background-color:whitesmoke;
+    width: 20%;
+    height: 150px;
+    margin: 1% 1%;
+}
+.S4{
+    background-color:whitesmoke;
+    width: 20%;
+    height: 150px;
+    margin: 1% 1%;
+}
+.S5{
+    background-color:whitesmoke;
+    width: 20%;
+    height: 150px;
+    margin: 1% 1%;
+}
+/* Akhir Stories */
+/* Akhsir Halaman index */
+
+/* Awal login media fire */
+.index.media-fire{
+    margin: 0 auto;
+    padding: 0 ;
+}
+.media-fire{
+    width: 370px;
+    border: solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.media-fire img{
+    width: 40%;
+}
+.logo-media-fire{
+    width:370px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo-media-fire img{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgba(0, 0, 0, 0.452) solid;
+    display: block;
+    outline: none;
+    border-radius: 0px;
+}
+input:focus{
+    border-bottom: 2px blue solid;
+}
+.login-media-fire form button{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(58, 58, 240);
+    color: white;
+    margin-bottom: 10px;
+}
+.login-media-fire{
+    width: 100%;
+}
+.login-media-fire h3{
+    text-align: center;
+    font-family: 'Calibri';
+}
+.sosial-login{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.sosial-login button{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #1827ABFC;
+    color: white;
+}
+.sosial-login .twiter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+.sosial-login .twiter img{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sosial-login button img{
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.checkbox{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-left: 5px;
+}
+.checkbox input{
+    width: 15px;
+}
+.checkbox label{
+    font-size: small;
+}
+.checkbox a{
+    margin: 10px;
+    font-size: small;
+    margin-left: 32%;
+}
+.buat-baru{
+    width: 88%;
+    padding: 7px;
+    text-align: center;
+    background-color: rgba(158, 150, 150, 0.534);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.buat-baru h3{
+    font-size: 15px;
+    font-family: 'Calibri';
+}
+.footer{
+    background-color: rgba(158, 150, 150, 0.534);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.footer p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: small;
+}
+
+
+
+/* Akhir login media fire */
